@@ -7,14 +7,25 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <None Remove="img\body\1.png" />
-      <Resource Include="img\body\1.png" />
-      <None Remove="img\hair\back\1.png" />
-      <Resource Include="img\hair\back\1.png" />
       <None Remove="img\g09016.jpg" />
       <Resource Include="img\g09016.jpg" />
       <None Remove="img\sample.png" />
       <Resource Include="img\sample.png" />
+      <None Remove="img\back.png" />
+      <Resource Include="img\back.png" />
+      <None Remove="img\2.png" />
+      <None Remove="img\body\2.png" />
+      <None Remove="img\body\3.png" />
+      <None Remove="img\hair\back\2.png" />
+      <None Remove="img\hair\back\3.png" />
+      <None Remove="img\body\4.png" />
+      <Resource Include="img\body\1.png" />
+      <None Remove="img\hair\front\1.png" />
+      <Resource Include="img\hair\front\1.png" />
+      <None Remove="img\hair\back\1.png" />
+      <Resource Include="img\hair\back\1.png" />
+      <None Remove="img\body\1.png" />
+      <Resource Include="img\body\1.png" />
     </ItemGroup>
 
 </Project>

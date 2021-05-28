@@ -7,12 +7,20 @@
         mc:Ignorable="d"
         Title="Chara Editor" Height="600" Width="800">
     <Grid>
-        <Canvas Name="canvas1" Width="600" Height="350" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Image Source="./img/g09016.jpg" />
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="600"/>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="190"/>
+        </Grid.ColumnDefinitions>
+        <Canvas Grid.Column="0" Name="canvas1" >
+            <!-- <Image Source="./img/g09016.jpg" /> -->
             <!-- <Image Source="./img/sample.png" /> -->
             <!-- <Image Name="imgSrc" Stretch="None"/> -->
-            <Image Source="./img/sample.png" Stretch="None"/>
+            <!-- <Image Source="./img/back.png" Width="404" Height="550" Stretch="None" /> -->
+            <Image Source="./img/body/1.png" Margin="0,0,0,0" Stretch="None"/>
+            <Image Source="./img/hair/back/1.png" Stretch="None"/>
+            <!-- <Image Source="./img/hair/front/1.png" Stretch="None"/> -->
         </Canvas>
-        <Button Content="Save as" Width="80" Height="20" Margin="0,10" HorizontalAlignment="Center" VerticalAlignment="Bottom" Click="SaveUnifiedImage"/>
+        <Button Grid.Column="2" Content="Save as" Width="80" Height="20" Margin="0,10" HorizontalAlignment="Center" VerticalAlignment="Bottom" Click="SaveUnifiedImage"/>
     </Grid>
 </Window>
