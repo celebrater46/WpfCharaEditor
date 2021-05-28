@@ -7,14 +7,14 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="img" />
-    </ItemGroup>
-
-    <ItemGroup>
       <None Remove="img\body\1.png" />
       <Resource Include="img\body\1.png" />
       <None Remove="img\hair\back\1.png" />
       <Resource Include="img\hair\back\1.png" />
+      <None Remove="img\g09016.jpg" />
+      <Resource Include="img\g09016.jpg" />
+      <None Remove="img\sample.png" />
+      <Resource Include="img\sample.png" />
     </ItemGroup>
 
 </Project>

@@ -47,13 +47,7 @@ namespace CharaEditor
         private void SaveUnifiedImage(object sender, RoutedEventArgs e)
         {
             // throw new System.NotImplementedException();
-            CreateSaveBitmap(canvas1, @"C:\Users\Enin\OneDrive\test\out.png");
-            // string output = @"C:\Users\Enin\OneDrive\test\out.png";
-            // if (File.Exists(output))
-            // {
-            //     output = @"C:\Users\Enin\OneDrive\test\out2.png";
-            // }
-            // CreateSaveBitmap(canvas1, output);
+            CreateSaveBitmap(canvas1, @"C:\Users\Enin\OneDrive\test\out3.png");
         }
     }
 }
