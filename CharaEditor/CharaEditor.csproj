@@ -13,6 +13,8 @@
     <ItemGroup>
       <None Remove="img\body\1.png" />
       <Resource Include="img\body\1.png" />
+      <None Remove="img\hair\back\1.png" />
+      <Resource Include="img\hair\back\1.png" />
     </ItemGroup>
 
 </Project>

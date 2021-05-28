@@ -8,14 +8,19 @@
         Title="Chara Editor" Height="600" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="190"/>
             <ColumnDefinition Width="10"/>
-            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="600"/>
         </Grid.ColumnDefinitions>
         
-        <Button Grid.Column="0" Content="Save"/>
-        <Canvas Grid.Column="2">
-            <Image Source="img/body/1.png"/>
-        </Canvas>
+        <Button Grid.Column="0" Width="80" Height="20" Content="Save" Click="SaveUnifiedImage"/>
+        <StackPanel Grid.Column="2" Width="550" Height="550" HorizontalAlignment="Right">
+            <Canvas Name="canvas1">
+                <Image Source="img/body/1.png" Width="Auto" Height="550" HorizontalAlignment="Center"/>
+                <!-- <Image Source="img/hair/back/1.png" Width="0.56*" Height="0.56*" HorizontalAlignment="Center"/> -->
+                <Image Source="img/hair/back/1.png" HorizontalAlignment="Center"/>
+            </Canvas>
+            <!-- <TextBlock Text="Test." FontSize="64"/> -->
+        </StackPanel>
     </Grid>
 </Window>
